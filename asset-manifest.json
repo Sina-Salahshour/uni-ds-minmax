@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/uni-ds-minmax/static/css/main.2bc41ac1.css",
+    "main.js": "/uni-ds-minmax/static/js/main.c338163c.js",
+    "index.html": "/uni-ds-minmax/index.html",
+    "main.2bc41ac1.css.map": "/uni-ds-minmax/static/css/main.2bc41ac1.css.map",
+    "main.c338163c.js.map": "/uni-ds-minmax/static/js/main.c338163c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bc41ac1.css",
+    "static/js/main.c338163c.js"
+  ]
+}
