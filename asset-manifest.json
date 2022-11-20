@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/uni-ds-minmax/static/css/main.2bc41ac1.css",
-    "main.js": "/uni-ds-minmax/static/js/main.7c596053.js",
+    "main.css": "/uni-ds-minmax/static/css/main.89280107.css",
+    "main.js": "/uni-ds-minmax/static/js/main.62edcf01.js",
     "index.html": "/uni-ds-minmax/index.html",
-    "main.2bc41ac1.css.map": "/uni-ds-minmax/static/css/main.2bc41ac1.css.map",
-    "main.7c596053.js.map": "/uni-ds-minmax/static/js/main.7c596053.js.map"
+    "main.89280107.css.map": "/uni-ds-minmax/static/css/main.89280107.css.map",
+    "main.62edcf01.js.map": "/uni-ds-minmax/static/js/main.62edcf01.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bc41ac1.css",
-    "static/js/main.7c596053.js"
+    "static/css/main.89280107.css",
+    "static/js/main.62edcf01.js"
   ]
 }
