@@ -25,7 +25,7 @@ const SingleMinMax = ({
       {typeof firstVal !== "undefined" && (
         <div className="w-full flex [&>*]:flex-grow text-center">
           <span className="bg-white border-2 border-black">{firstVal}</span>
-          {secondVal && (
+          {typeof secondVal !== "undefined" && (
             <span className="bg-white border-2 border-black">{secondVal}</span>
           )}
         </div>
