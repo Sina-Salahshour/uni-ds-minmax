@@ -20,6 +20,14 @@ const SingleMinMax = ({
   firstVal,
   secondVal,
 }: SingleMinMaxProps) => {
+  const textWhiteOutlineMin = {
+    color: "black",
+    backgroundImage: "linear-gradient(#ffffff80,transparent)",
+  };
+  const textWhiteOutlineMax = {
+    color: "black",
+    backgroundImage: "linear-gradient(transparent,#ffffff80)",
+  };
   return (
     <div className="flex flex-col items-center justify-center w-max mx relative">
       {typeof firstVal !== "undefined" && (
@@ -30,8 +38,20 @@ const SingleMinMax = ({
           )}
         </div>
       )}
-      <span className="mt-auto px-2">min: {minVal}</span>
-      <span className="mb-auto px-2">max: {maxVal}</span>
+      <div className="flex flex-col my-auto">
+        <span
+          style={{ ...textWhiteOutlineMin }}
+          className="px-2 rounded-t-sm m-1 mb-0"
+        >
+          min: {minVal}
+        </span>
+        <span
+          style={{ ...textWhiteOutlineMax }}
+          className="px-2 rounded-b-sm m-1 mt-0 "
+        >
+          max: {maxVal}
+        </span>
+      </div>
     </div>
   );
 };
